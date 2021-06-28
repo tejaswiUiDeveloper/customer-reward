@@ -1,0 +1,36 @@
+#title {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#rewards {
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 70%;
+}
+
+#rewards td,
+#rewards th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#rewards tr:nth-child(even) {
+  background-color: #7676761a;
+}
+
+#rewards tr:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+#rewards th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ec6d6dc3;
+  color: white;
+}
